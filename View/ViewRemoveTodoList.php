@@ -7,7 +7,7 @@ function viewRemoveTodoList()
 {
     echo "DELETED TODOLIST" . PHP_EOL;
 
-    $selected = input("Nomer(x for close) :");
+    $selected = input("Select Number(x for close) :");
 
     if ($selected == "x") {
         echo "Cancel Todo" . PHP_EOL;
